@@ -4,7 +4,7 @@
 
 | Key/Menu    |Function                                                 |
 |-------------|---------------------------------------------------------|
-| Enter/Return| To save selected/written options and get recommendation |
+| Enter/Return| To run selected option                                  |
 |             |                                                         |
 | Options     |                                                         |
 | Reset       | To give new entry                                       |

@@ -1,5 +1,6 @@
 import tkinter as tk
 import tkinter.messagebox as msg
+import webbrowser
 # Building GUI
 
 # Take a instance of gui window
@@ -51,11 +52,13 @@ outputList = tk.Listbox(recMovies, yscrollcommand=scrollBarOutputList.set, heigh
 outputList.pack(side=tk.LEFT)
 
 def man():
-    with open('readme.md','r') as file:
+    with open('screenshots/man.txt','r') as file:
         contents = file.read()
         file.close()
     msg.showinfo(title='manual', message=contents)
 
+def url():
+    webbrowser.open('https://github.com/su-nitin/recommendation_system',new=2)
 # Menu
 menu = tk.Menu(window)
 window.config(menu=menu)
@@ -64,6 +67,7 @@ menu.add_cascade(label='Options', menu=filemenu)
 helpmenu = tk.Menu(menu)
 menu.add_cascade(label='Help', menu=helpmenu)
 helpmenu.add_command(label='Info', command=man)
+helpmenu.add_command(label='Github Page', command=url)
 
 
 

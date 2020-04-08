@@ -1,0 +1,9 @@
+# This is basic content-based recommendation system 
+# Completely batch-type machine learning system
+
+# User Instructions 
+    Key/Menu        Function                                                 
+    Enter/Return    To run selected option                                                   
+    Options                                                            
+    Reset           To give new entry                                       
+    Exit            To close window                                         
