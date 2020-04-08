@@ -1,6 +1,7 @@
 # This is a simple content-based movie  recommendation system 
 # Completely batch-type machine learning system
-# User Instructions 
+# User Instructions
+# Used Sckit-learn library and CounVectorizer and Cosine_Similarity 
 #used Tkinter for GUI structure
 
 | Menu        |Function that option will perform                                                |
