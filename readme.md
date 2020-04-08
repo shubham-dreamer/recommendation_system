@@ -1,8 +1,9 @@
-# This is basic content-based recommendation system 
+# This is a simple content-based movie  recommendation system 
 # Completely batch-type machine learning system
 # User Instructions 
+#used Tkinter for GUI structure
 
-| Key/Menu    |Function                                                 |
+| Menu        |Function that option will perform                                                |
 |-------------|---------------------------------------------------------|
 | Enter/Return| To run selected option                                  |
 |             |                                                         |
