@@ -1,4 +1,4 @@
-# For GUI
+# For GUI structure
 import recommenderGUI as gui
 # For using DataFrames and importing CSV 
 import pandas as pd
@@ -72,7 +72,7 @@ def onPress(event):
     # S12 :: Get list of all the similar movies
     similarMovies =  list(enumerate(similarityFinder[movieIndex]))
 
-    # S13 :: Sorting the list 
+    # S13 :: Sorting the list in descending order 
     sortedSimilarMovies = sorted(similarMovies, key=lambda x:x[1], reverse=True)
 
     # S14 :: Getting output
