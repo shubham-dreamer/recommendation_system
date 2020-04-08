@@ -9,3 +9,10 @@
 | Options     |                                                         |
 | Reset       | To give new entry                                       |
 | Exit        | To close window                                         |
+
+# Screenshots
+![screenshot](screenshots/img1.jpg)
+
+![screenshot](screenshots/img2.jpg)
+
+![screenshot](screenshots/record.mov)
