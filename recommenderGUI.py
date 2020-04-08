@@ -51,7 +51,7 @@ outputList = tk.Listbox(recMovies, yscrollcommand=scrollBarOutputList.set, heigh
 outputList.pack(side=tk.LEFT)
 
 def man():
-    with open('readme.txt','r') as file:
+    with open('readme.md','r') as file:
         contents = file.read()
         file.close()
     msg.showinfo(title='manual', message=contents)
